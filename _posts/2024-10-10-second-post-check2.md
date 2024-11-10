@@ -1,6 +1,6 @@
 ----
 title: "Hello"
-date: 2024-10-12 00:00:00 +0800
+date: 2024-10-10 00:00:00 +0800
 categories: [Hello]
 tags: [hello]
 ----
