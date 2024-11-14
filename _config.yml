@@ -14,7 +14,7 @@ timezone: Europe/Vilnius
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: DeiLis # the main title
+title: DeiLis | CTI Blogs & More # the main title
 
 tagline: CTI Blogs & More # it will display as the subtitle
 
@@ -28,8 +28,8 @@ url: "https://deilis.github.io"
 github:
   username: Deilis # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+#twitter:
+#  username:  # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -182,6 +182,7 @@ defaults:
       toc: true # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
+      authors: "Deividas Lis"
       permalink: /posts/:title/
   - scope:
       path: _drafts
@@ -195,7 +196,11 @@ defaults:
       permalink: /:title/
 
 sass:
-  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+    - ruby/gems/3.3.0/gems/jekyll-theme-chirpy-7.1.1/_sass
+
 
 compress_html:
   clippings: all

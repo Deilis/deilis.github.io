@@ -1,0 +1,9 @@
+deilis:
+  name: "Deividas Lis"
+  bio: "Cyber Threat Intelligence Researcher"
+  avatar: "#"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/deilis"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/deilis"
